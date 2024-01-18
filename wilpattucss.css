@@ -1,0 +1,228 @@
+body,footer{
+  background-image: url(./IMAGES/desktopwilpattu10.jpg);
+  background-size:cover;
+}
+/*using the main image as a background */
+
+.bluebox{
+  box-sizing: border-box;
+  width: 104%;; 
+  height: 70px; 
+  background-color:#2b7386;
+}
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 2%;
+}
+
+.whitelink{
+  display: inline-block;
+  margin-left: 0px;
+  margin-right: 25px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 8.5pt; 
+}
+
+.navigation-list{
+  list-style: none;
+  display:flex; 
+  justify-content: space-evenly;
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+
+
+.navigation-list a:link{
+  color: white;
+}
+.navigation-list a:hover{
+  color: burlywood;
+  background-color:cadetblue;
+}
+.navigation-list a:visited{
+  color: azure;
+  background-color:cadetblue;
+}
+
+.logo{
+  text-align: left;
+  
+}
+
+.logosize{
+  width:60px;
+  height:60px;
+  margin-left:0px ;
+  text-align: left;
+}
+h1{
+  color: #2b7386;
+  font-family: cursive;
+  font-size: 20pt;
+  margin-left: 25%;
+  width:50%;
+  text-align: center;
+  animation: fadeIn 1s ease-in-out;
+}
+
+.about{margin-left: 10%;
+  color:  antiquewhite;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: large;
+  font-weight:bold;
+
+}
+.aboutp{
+  margin-left: 10%;
+  color: antiquewhite;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: medium;
+  font-weight:450;
+  width:80%;
+}
+
+.aboutp:hover {
+  border: 1px solid antiquewhite ;
+  border-radius: 15px;
+}
+
+.fleximg{
+  width: 80%;
+  height:200px;
+  margin-bottom: 20px;
+  margin-left: 10%;
+}
+
+/*animation of zooming images when user hovers over it*/
+.slideshow img {
+  transition: transform 0.3s ease; /* Add transition effect */
+}
+
+.slideshow img:hover {
+  transform: scale(1.1); /* Scale up images in slideshow on hover */
+}
+
+@media(min-width: 600px) 
+{
+  header.bluebox:hover {
+    background-color: #154360; 
+  }
+
+body,footer{
+    background-image: url(./IMAGES/desktopwilpattu10.jpg);
+    background-size: cover;
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 5%;
+}
+
+.bluebox{
+  box-sizing: border-box;
+  width: 104%;; 
+  height: 90px; 
+  background-color:#2b7386;
+}
+
+.whitelink{
+  display: inline-block;
+  margin-left: 120px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-size: 18pt; 
+}
+
+.logosize{
+    cursor:pointer;
+    width:80px;
+    height:80px;
+    text-align: left;
+    margin-left: 20px;
+}
+
+.navigation-list{
+  list-style: none;
+  display:flex; 
+  justify-content: space-evenly;
+  list-style: none;
+  padding: 0;
+}
+
+
+.navigation-list a:link{
+  color: white;
+}
+.navigation-list a:hover{
+  color: burlywood;
+  background-color:cadetblue;
+}
+.navigation-list a:visited{
+  color: azure;
+  background-color:cadetblue;
+}
+
+  h1{
+    color: #2b7386;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30pt;
+    margin-left: 23%;
+    animation: fadeIn 1s ease-in-out;
+  }
+  @keyframes fadeIn {
+    from {
+      opacity: 0; /* Start with 0 opacity */
+    }
+    to {
+      opacity: 1; /* Gradually fade in to full opacity */
+    }
+  }
+
+  .about{margin-left: 3%;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: large;
+    font-weight:bold;
+
+  }
+  .aboutp{
+    margin-left: 3%;
+    color:white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: medium;
+    font-weight:450;
+    width:65%;
+  }
+
+  .aboutp:hover {
+    border: 1px solid white ;
+    border-radius: 15px;
+  }
+
+  .flexgallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .flexgallery img{
+    width:40%;
+    height:350px;
+    margin-bottom: 20px;
+    margin-left: 1%;
+  }
+
+  /*animation of zooming images when user hovers over it*/
+
+  .flexgimg {
+    transition: transform 0.3s ease; /* Add transition effect */
+  }
+  
+  .flexgallery img:hover {
+    transform: scale(1.1); /* Scale up images in slideshow on hover */
+  }
+}
